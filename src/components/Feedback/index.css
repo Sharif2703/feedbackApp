@@ -1,0 +1,42 @@
+/* Write your CSS code here. */
+img {
+  width: 40%;
+}
+
+.feedback-bg {
+  background-image: linear-gradient(to right, #ffebeb, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 80px;
+  height: 55%;
+}
+
+.items-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.each-item {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
